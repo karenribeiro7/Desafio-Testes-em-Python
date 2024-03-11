@@ -25,6 +25,7 @@ Para realizar a atividade utilizamos dois frameworks de teste em python, o **Uni
 1. Fizemos um primeiro encontro para dividir as Task's de cada um.
 2. Participação de quase todas as integrantes.
 3. Fizemos outros encontros para estudar e desenvolver o desafio juntas.
+4. Todas que estavam presentes nas reuniões colaboraram nas atividades.
 
 ## Resolução e lógica do exercício de Unittest
 No exercício do minicurso 1 - Introdução a testes em python, seguindo os passos indicados pelo minicurso, a ideia/lógica é criar uma função que verifica se o valor (dado) de entrada pertence ao conjunto de valores verdadeiros ou falsos.
