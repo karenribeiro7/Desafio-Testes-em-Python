@@ -22,6 +22,16 @@ A -- Branch 3 --> D(DesafioAvançadoPytest_SquadRitaLevi)
 Para realizar a atividade utilizamos dois frameworks de teste em python, o **UnitTest** que é um módulo que já vem integrado ao python e o **PyTest** que tivemos que instalar  por meio do comando  `pip install pytest` no terminal.
 
 ## Como nos organizamos para este desafio
+1. Fizemos um primeiro encontro para dividir as Task's de cada um.
+2. Participação de quase todas as integrantes.
+3. Fizemos outros encontros para estudar e desenvolver o desafio juntas.
+
+## Resolução e lógica do exercício de Unittest
+No exercício do minicurso 1 - Introdução a testes em python, seguindo os passos indicados pelo minicurso, a ideia/lógica é criar uma função que verifica se o valor (dado) de entrada pertence ao conjunto de valores verdadeiros ou falsos.
+
+Neste exercício, o teste (Assert), foi realizado usando o unittest. Este framework possui uma classe chamada `TestCase` que possui vários métodos capazes de testar e reportar falhas no código. No caso do exercício, foi utilizado o método `.assertTrue()` que testa se a expressão é verdadeira ou não.
+
+Outra grande parte dos teste é corrigir/prever as falhas. Neste exercício, foram utilizados:  `value = value.lower()` para deixar todos os caracteres minúsculos e evitar erro de digitação; try e except para invocar uma exceção que gera por meio do método `AtributeError()` um aviso de que um tipo diferente de caractere foi usado; para testar se o `AtributeError()` está funcionando corretamente foi preciso elaborar um teste usando o `assertRaises()`para verificar se uma exceção específica foi invocada.
 
 ### Componentes da Squad :star2:
 
